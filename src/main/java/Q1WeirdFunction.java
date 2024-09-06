@@ -22,7 +22,7 @@ public class Q1WeirdFunction {
 
             f3 = f2;
             f2 = f1;
-            f2 = fn;
+            f1 = fn;
         }
         return fn;
     }
