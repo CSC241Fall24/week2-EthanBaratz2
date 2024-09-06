@@ -6,8 +6,10 @@ public class Q3PrintArrayBackwards {
     }
 
     private static void printRecursion(int i) {
-        // TODO: Implement the recursive method to print array elements backwards
-        // Hint: The base case is when i <= 0
-        // Hint: Print the element after the recursive call
+        if(i <= 0 ) return ;
+        else {
+            System.out.println(array[i - 1]);
+            backwards(i - 1);
+        }
     }
 }
